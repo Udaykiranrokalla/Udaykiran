@@ -6,9 +6,10 @@ public class Odd_Even {
 	 System.out.println("enter a number to check weather odd or even:");
      Scanner hari=new Scanner(System.in);
      int n=hari.nextInt();
-     sum(n);
+     Odd_Even ob=new Odd_Even();
+     ob.sum(5);
  }
-  static void sum(int s)
+   void sum(int s)
  {
 	 if(s%2==0)
 	 {
