@@ -7,7 +7,7 @@ public class Leap {
 		System.out.println("enter anumber");
 		int n=sc.nextInt();
 		if(n%4==0)
-		{
+		{	
 			System.out.println("this is the leapyear");
 		}
 		else
