@@ -27,5 +27,4 @@ void average()
 	}
 
 }
-//
-//mlngjfdklgbiohdgfdigbhdgp
+
