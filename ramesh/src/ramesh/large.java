@@ -8,7 +8,8 @@ public class large {
 		int n=sc.nextInt();
 		int l=0,s=10,r=0;
 		
-		while(n>0) {
+		while(n>0) 
+		{	
 			r=n%10;
 		if(r>l)
 			l=r;
