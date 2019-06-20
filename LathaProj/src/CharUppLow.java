@@ -11,6 +11,10 @@ public class CharUppLow {
     }
     else if(ch>='A' && ch<='Z') {
     	System.out.println(ch+"is upper case");
+    	
+    }
+    else if(ch>='0' && ch<='9') {
+    	System.out.println(ch+"is digit");
     }
     else
     {
