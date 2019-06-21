@@ -15,6 +15,7 @@ for(int i=2;i<=n/2;i++)
 		break;
 	}
 }
+
   if(flag==0)
  {
 	System.out.println(n+ "is a prime number");
