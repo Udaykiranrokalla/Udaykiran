@@ -11,7 +11,7 @@ public static void main(String[] args)
 		System.out.println("number is even");
 		}
 	else  {
-		System.out.println("number is odd ");
+		System.out.println("number is negative ");
 	}
 }
 }
