@@ -28,7 +28,7 @@ public static void main(String[]args)
 		   numDays=30;
 		   break;
 	   case 2:
-		   Data dat=new Data();
+		   Date dat=new Date();
 		   year=dat.getYear();
 				   
    }
