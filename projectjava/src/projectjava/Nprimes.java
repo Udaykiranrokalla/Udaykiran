@@ -12,12 +12,12 @@ public class Nprimes {
 		System.out.print("Enter number:");        
 		int n=s.nextInt();
 		for(int i=1;i <= n;i++)
-		{
-			for(int j=1;j <= n;j++)
+		{   
+			for(int j=1;j <= i;j++)
 			{	
 			   if((i % j)==0)
 			   {
-				count++;				
+				count++;				  
    			   }
 			}
 			
@@ -26,8 +26,8 @@ public class Nprimes {
 				System.out.println(i);
 	     }
 	   }
-	                                   }                                    
+	}                                 
 
 
-                 }
+   }
               
