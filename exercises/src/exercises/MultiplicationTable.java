@@ -15,9 +15,9 @@ public class MultiplicationTable {
 		    n = in.nextInt();
 
    System.out.println ("\n");
-   for(j=0;j<=n;j++)
+  // for(j=0;j<=n;j++)
   
-     System.out.println(n+" X "+j+" = " +n*j);
+     //System.out.println(n+" X "+j+" = " +n*j);
    }
 }
 }

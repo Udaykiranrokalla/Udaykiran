@@ -1,5 +1,6 @@
 package exercises;
 import java.util.Scanner;
+import java.util.Date;
 public class Month
 {
 	
@@ -11,7 +12,7 @@ public static void main(String[]args)
 	int year;
    int numDays =0;
    switch (month)
-   {
+     {
 	   case 1:
 	   case 3:
 	   case 5:
@@ -28,9 +29,7 @@ public static void main(String[]args)
 		   numDays=30;
 		   break;
 	   case 2:
-		   Date dat=new Date();
-		   year=dat.getYear();
-				   
+		  
    }
    }
 }
