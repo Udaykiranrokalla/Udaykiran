@@ -1,26 +1,26 @@
 import java.util.*;
 public class Primenumber {
 public static void main(String[] args) {
-	int n,i,count=0;
+	int n,i,flag=0;
 	Scanner scan=new Scanner(System.in);
 			System.out.println("enter a number range ");
 	n=scan.nextInt();
-	for(n=1;n>100;n++)
-	{
-		for(i=2;i<=n/2;i++)
+	for(int j=2;j<=n;j++)
+	{ 
+		flag=0;
+		for(i=2;i<=j/2;i++)
 		{
-			if(n%i==0)
+			if(j%i==0)
 			{
-			count++;
+			flag=1;
 			break;
 			}
-				
-        if(count==2)
+		}
+        if(flag==0)
         {
-        	System.out.println("priome number" +n);
-        }
-				
+        	System.out.println(j);
+      }
+        	
 			}
 	}
-}
 }
