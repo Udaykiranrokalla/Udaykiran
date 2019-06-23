@@ -3,7 +3,7 @@ package Constuctor;
 public class Constructor1 {
 		   int Id;  
 		   String Name;
-		   Constructor1(int id, String name){  
+		   Constructor1(int id,String name){  
 		       this.Id = id;  
 		       this.Name = name;  
 		   }  
