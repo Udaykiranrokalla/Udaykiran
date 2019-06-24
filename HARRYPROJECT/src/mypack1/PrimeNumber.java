@@ -4,27 +4,27 @@ import java.util.*;
 
 public class PrimeNumber
 {
-     static int count;
+ 
 	public static void main(String[] args)
-	{   int j;
+	{  
+	    int count = 0;
 		System.out.println("enter a number");
 		Scanner scan=new Scanner(System.in);
 		int n=scan.nextInt();
-		for(int i=2;i<=n;i++)
+		for(int i=2;i<=n/2;i++)
 		{
-			count = 0;
-			for(j=1;j<=i;j++)
+			if(n%i==0)
 			{
-				if(i%j==0)
-				{
-				    count++;	
-				}	
-			}	
-			if(count==2)
-			{
-				System.out.printf(" ",+i);
+				count=1;
+				break;
 			}
 		}
+		if(count==0)
+		{
+			System.out.println("Prime number");
+		}
+		else
+			System.out.println("Not a prime number");
 		}
 
 	}

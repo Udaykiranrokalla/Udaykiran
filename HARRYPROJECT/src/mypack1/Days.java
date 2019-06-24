@@ -11,7 +11,6 @@ public class Days
 		Scanner scan =new Scanner(System.in);
 		System.out.println("Enter month number");
 		int month=scan.nextInt();
-		int year;
 		int numDays=0;
 		switch(month)
 		{
@@ -31,19 +30,11 @@ public class Days
 			numDays=30;
 			break;
 		case 2:
-		Date dat=new Date(numDays);
-		year=dat.getYear();
-		System.out.println("present year="+year);
-		  if((year%4 == 0))
-			  numDays = 29;
-		  else
-			  numDays = 28;
-		      break;
-		  default:    
+		   System.out.println("either 28 or 29 days ");
+		   break;
+		default:    
 		  System.out.println("invalid month");
-		  
-		}
-		 System.out.println("Number of days="+numDays);
+		} 
 
 	}
 

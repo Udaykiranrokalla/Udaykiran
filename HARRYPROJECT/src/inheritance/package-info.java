@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+/**
+ * @author miracle
+ *
+ */
+package inheritance;

@@ -2,7 +2,7 @@ package mypack1;
 
 import java.util.Scanner;
 
-public class EvenSum 
+public class EvenSum    
 {
 
 	public static void main(String[] args)
@@ -11,8 +11,7 @@ public class EvenSum
 		Scanner scan=new Scanner(System.in);
 		int n=scan.nextInt();
 		int	sum=0;
-		int i=1;
-		for(i=1;i<=n;i++)
+		for(int i=1;i<=n;i++)
 		{
 			if(i%2 == 0)
                sum=sum+i;
