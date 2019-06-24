@@ -1,11 +1,8 @@
 package Collections;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Iterator;
+import java.util.*;
 
-public class A {
+public class I {
 public static void main(String args[]) {
 	try {
 	ArrayList al =new ArrayList();
@@ -25,4 +22,3 @@ catch(NullPointerException e) {
 }
 }
 }
-

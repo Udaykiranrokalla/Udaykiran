@@ -14,7 +14,6 @@ LinkedHashSet al =new LinkedHashSet();
 	al.add(7);
 	al.add("uday");
 	al.add(7);
-	
 
 	Iterator i=al.iterator();
 	while(i.hasNext()) {
