@@ -44,7 +44,8 @@ public static void main(String[]args)
     
     	    System.out.println("name Contains :" + name); 
     	    System.out.println("allnames Contains :" + allnames); 
-    	      
+    	     allnames.clear(); 
+    	    System.out.println("allnames Contains :" + allnames); 
 } 
 } 
  
