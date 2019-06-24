@@ -2,7 +2,7 @@ package constructors;
 
 public class SingleObject {
     int a,b;
-    SingleObject(int a,int b)
+    public SingleObject(int a,int b)
     {
     	
     	this.a=a;
@@ -19,7 +19,7 @@ public class SingleObject {
     	this.b=b;
     	System.out.println(a);
     	System.out.println(b);
-    	
+    	//SingleObject(1,2);
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
