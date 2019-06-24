@@ -2,7 +2,7 @@ package Collections;
 
 import java.util.*;
 
-public class G {
+public class H {
 public static void main(String args[]) {
 	ArrayList al =new ArrayList();
 al.add("uday");
