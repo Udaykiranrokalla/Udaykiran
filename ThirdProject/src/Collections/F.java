@@ -1,10 +1,8 @@
 package Collections;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
+import java.util.*;
 
-public class A {
+public class F {
 public static void main(String args[]) {
 	ArrayList al =new ArrayList();
 al.add("uday");
