@@ -4,16 +4,16 @@ public class Constructer
 {
 
 	int id,age,m1,m2,m3; // instance var
-	String name;
+	java.lang.String name;
 	static String course; //static var
-	Constructer(int a,int b,int c,int d,int e,String n)
+	Constructer(int a,int b,int c,int d,int e,java.lang.String string)
 	{
 		this.id=a;
 		this.age=b;
 		this.m1=c;
 		this.m2=d;
 		this.m3=e;
-		this.name=n;
+		this.name=string;
 	}
 	public void average()
 	{
@@ -27,7 +27,7 @@ public class Constructer
 	}
 	public static void main(String args[])
 	{
-		Constructer c=new Constructer(1,2,50,80,90,"nikki");
+		Constructer c=new Constructer(1, 2,3, 4, 5, "go");
 		c.average();
 		c.hello();
 	}

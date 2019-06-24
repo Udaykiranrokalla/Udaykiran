@@ -1,14 +1,5 @@
 package interfaces;
 
-Interface I1
-{
-	void m1()
-	{
-		
-	}
-}
-
-
 
 
 
