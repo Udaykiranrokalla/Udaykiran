@@ -11,7 +11,7 @@ public class Hs {
         h.add(40);
         h.add(50);
         h.add(10);
-        h.add(30);
+        h.add(null);
         System.out.println("hashset elements are "+h);
         h.remove(20);
         System.out.println("After remove operation elements are :"+h);
