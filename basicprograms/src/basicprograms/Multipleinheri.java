@@ -17,6 +17,7 @@ class B{
 }
 
 
-class Multipleinheri extends A {
+class Multipleinheri extends A,B{
+	
 
 }
