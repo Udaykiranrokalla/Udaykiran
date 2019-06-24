@@ -10,7 +10,7 @@ public class C {
 	al.add('c');
 	al.add("kiran");
 	al.add(5);
-	al.add("uday");
+	al.add(" ");
 	al.add("UK");
 	al.add(7);
 

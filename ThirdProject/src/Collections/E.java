@@ -3,20 +3,19 @@ package Collections;
 import java.util.*;
 public class E {
 	public static void main(String args[]) {
-		SortedSet a =new TreeSet();
+		HashSet a =new HashSet();
 			
 			a.add("Uday");
 			a.add("Kiran");
-			a.add("Rokalla");
+			a.add("  ");
 			a.add("Btech");
-			
-			Iterator i=a.iterator();
-			while(i.hasNext()) {
-				System.out.println(i.next());
+			a.add("Uday");
+            			
+			System.out.println(a);
 			
 			}
 	}
-}
+
 
 
 
