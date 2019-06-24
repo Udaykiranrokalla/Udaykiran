@@ -12,6 +12,7 @@ al.add('c');
 al.remove("uday");
 al.add(1,"kiran");
 al.add(0,"UK");
+size=collection.size();
 System.out.println("elements are" +al);
 
 boolean b= Collections.addAll(al,1,2,3);

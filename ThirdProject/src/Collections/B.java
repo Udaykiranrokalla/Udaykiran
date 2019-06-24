@@ -13,6 +13,7 @@ Collections.addAll(a,"teja","nikhil");
 	Iterator i=a.iterator();
 	while(i.hasNext()) {
 		System.out.println(i.next());
+		System.out.println(a.size());
 	}
 	}
 	}
