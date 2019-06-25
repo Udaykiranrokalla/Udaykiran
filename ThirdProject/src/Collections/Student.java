@@ -13,6 +13,6 @@ Student s=new Student(1,"uday");
 Student s1=new Student(2,"kiran");
 a.add(s);
 a.add(s1);
-System.out.println(s.no+ " " +s1.Ename);
+System.out.println(no+ " "+);
 }
 }

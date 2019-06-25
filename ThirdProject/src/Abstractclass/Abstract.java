@@ -1,5 +1,4 @@
 package Abstractclass;
-
 abstract class Abstract 
     {  
 	  abstract void run();  

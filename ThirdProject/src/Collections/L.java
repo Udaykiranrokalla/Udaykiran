@@ -2,13 +2,14 @@ package Collections;
 import java.util.*;
 public class L {
 public static void main(String[] args) {
-ArrayList<Integer> s1=new ArrayList<Integer>();
-s1.add(1);
-s1.add(2);
-s1.add(4);
-s1.add(8);
-HashSet<Integer> s2=new HashSet<Integer>();
-   for(Integer i:s1)
+ArrayList<String> s1=new ArrayList<String>();
+s1.add("uday");
+s1.add("kiran");
+s1.add("udaykiranrokalla");
+s1.add("uday");
+s1.add("uk");
+HashSet<String> s2=new HashSet<String>();
+   for(String i:s1)
    	s2.add(i);
    Iterator i=s2.iterator();
    while(i.hasNext())

@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	for(int j=2;j<=n;j++)
 	{ 
 		flag=0;
-		for(i=2;i<=j/2;i++)
+		for(i=2;i<=j/2;i ++)
 		{
 			if(j%i==0)
 			{
