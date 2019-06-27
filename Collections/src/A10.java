@@ -5,7 +5,7 @@ public class A10  //CommonCharacters
    public static void main(String args[])
    {
   Scanner sc=new Scanner(System.in);
-  StringBuffer s1=new StringBuffer("nikhil");
+  StringBuffer s1=new StringBuffer("Nikhil");
   StringBuffer s2=new StringBuffer("nikki");
   for(int i=0;i<s1.length();i++)
   {
