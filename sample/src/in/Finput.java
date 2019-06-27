@@ -5,6 +5,7 @@ public static void main(String args[]) {
 	try {
 		FileInputStream sl=new FileInputStream("D:\\samu.txt");
 		int i=sl.read();
+		
 		System.out.println((char)i);
 	
 	sl.close();
