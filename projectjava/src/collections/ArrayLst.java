@@ -1,7 +1,9 @@
 package collections;
+import java.io.Serializable;
+import java.util.*;
 import java.util.ArrayList;
 import java.util.Iterator;
-public class ArrayLst {
+public class ArrayLst implements Serializable {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

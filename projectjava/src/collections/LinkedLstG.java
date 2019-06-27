@@ -15,7 +15,8 @@ public class LinkedLstG {
    Iterator it = l1.iterator();
    while(it.hasNext())
 		   {
-	        System.out.println(it.next());
+	        Student s= (Student)it.next();
+	        System.out.println();
 		   }
        	}
 

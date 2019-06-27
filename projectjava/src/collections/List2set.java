@@ -11,6 +11,8 @@ public class List2set {
 		s1.add(508);
 		s1.add(518);
 		s1.add(582);
+		s1.add(582);
+		s1.add(582);
 		HashSet<Integer> s2=new HashSet<Integer>();
 	    for(Integer i:s1)
 	    	s2.add(i);

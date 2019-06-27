@@ -13,6 +13,8 @@ public class Set2List {
 		s1.add("koti");
 		s1.add("uday");
 		s1.add("nikhil");
+		s1.add("nikhil");
+		s1.add("nikhil");
 		ArrayList<String> s2=new ArrayList<String>();
 	    for(String s:s1)
 	    	s2.add(s);
