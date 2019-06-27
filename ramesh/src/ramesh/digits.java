@@ -10,7 +10,7 @@ public class digits {
 		n=sc.nextInt();
 		while(i<=n)
 		{
-			n=n/10;
+			n=n/10;	
 			count=count +1;
 		}
 	System.out.println("number of digits="+count);
