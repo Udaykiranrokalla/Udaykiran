@@ -14,8 +14,8 @@ public class Listtoset {
 		al.add("4");
 		al.add("4");
 		al.add("5");
-		Set ss=new HashSet(al);
-		for(String s:al)
+		Set<String> ss=new HashSet(al);
+		for(String s:ss)
 		
 		System.out.println(s);
 		

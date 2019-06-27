@@ -7,8 +7,8 @@ import java.util.Set;
 
 public class Settolist {
 	public static void main(String args[]) {
-		Set z=new LinkedHashSet();
-		z.add(1);
+		Set<String> z=new LinkedHashSet();
+		z.add("MANU");
 		z.add("s");
 		z.add("sai");
 		z.add("raam");
@@ -18,7 +18,7 @@ public class Settolist {
 
 		 List<String> ss=new LinkedList(z);
 	     for(String a:ss)
-	     System.out.println(ss);
+	     System.out.println(a);
 
 	
 	
