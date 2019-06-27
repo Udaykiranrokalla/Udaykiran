@@ -9,6 +9,7 @@ public class NList {
  al.add("mss");
  al.add(2);
  al.add(',');
+ al.add(' ');
  Iterator it=al.iterator();
  while(it.hasNext())
  {
