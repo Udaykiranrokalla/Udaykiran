@@ -79,12 +79,17 @@ public class A {
 	    		if(amount<w)
 	    		{
 	    			throw new Isb("Insufficient balance");
+	    			
 	    		}
 	    		else
 	    		{
 	    			total=amount-w;
 	    			System.out.println("Amount After withdrawal is "+total);
 	    		}
+	    		
+	    			
+	    			System.out.println("hello");
+	    		
 	    		break;
 	    	case 2:
 	    		 if(amount==0)
@@ -117,10 +122,13 @@ public class A {
 	         default :
 	    			System.out.println("Invalid option");
 	    	}
+	    	
+
+	    	}
 			
 		}
 		
 		
 	}
 
-}
+
