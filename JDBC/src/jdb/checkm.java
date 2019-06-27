@@ -14,7 +14,7 @@ public class checkm {
 	 Object insert;
 	 PreparedStatement ps=Con.prepareStatement("insert into miraclemom VALUES (112,'Rakesh','Developer')");
 	 int i=ps.executeUpdate();
-	 System.out.println("rakesh is the king");
+	 System.out.println("rakesh is the kings");
  }
 
 }
