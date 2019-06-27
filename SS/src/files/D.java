@@ -1,12 +1,12 @@
 package files;
 import java.io.*;
-class E implements Serializable
+class Emp implements Serializable
 {
 	private static final long serialversionUID =129348938L; 
 	int id;
 	transient int num;
 	String name;
-	public E(int a,int b,String c)
+	public Emp(int a,int b,String c)
 	{
 		this.id=a;
 		this.num=b;
@@ -17,7 +17,7 @@ public class D {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		E e1=new E(1,121,"harry");
+		Emp e1=new Emp(1,121,"harry");
 		
 		try {
 			FileOutputStream f=new FileOutputStream("D:\\n.txt");
