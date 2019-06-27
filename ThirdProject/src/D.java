@@ -1,4 +1,5 @@
- class A {
+package src;
+class A {
 	
  static synchronized void display(int j)
 {

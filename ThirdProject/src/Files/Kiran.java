@@ -11,7 +11,7 @@ public class Kiran {
 	byte b[]=s.getBytes();
 	fout.write(b);
 	fout.close();
-		}
+		 	}
 		catch(Exception e) {
 	System.out.println(e);
 	}

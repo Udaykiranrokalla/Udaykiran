@@ -1,3 +1,4 @@
+package src;
 import java.util.*;
 public class Axis {
 	public static void main(String[] args) {
