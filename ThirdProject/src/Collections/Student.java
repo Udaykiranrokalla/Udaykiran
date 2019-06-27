@@ -2,7 +2,7 @@ package Collections;
 import java.util.*;
 public class Student {
 	int no;
-	String Ename;
+    String Ename;
 Student(int id,String name) {
 	this.no=id;
 	this.Ename=name;
@@ -13,6 +13,6 @@ Student s=new Student(1,"uday");
 Student s1=new Student(2,"kiran");
 a.add(s);
 a.add(s1);
-System.out.println(no+ " "+);
+System.out.println(id " " +name);
 }
 }

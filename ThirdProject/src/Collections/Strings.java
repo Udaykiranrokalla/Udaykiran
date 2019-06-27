@@ -22,8 +22,7 @@ public static void main(String[] args) {
            System.out.print(" " + c);
        }
 
-       System.out.println("\nTotal number of common characters: "
-           + set1.size());
+       System.out.println("\nTotal number of common characters: " + set1.size());
    }
 }
 

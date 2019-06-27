@@ -73,12 +73,14 @@ System.out.println("1.login\t\t2.Withdraw\n3.Balance\t4.Deposit\n5.Exit");
    	{
    	throw new Isb("Insufficient balance");
    	}
+   	
    	else
    	{
    	total=amount-w;
-   	System.out.println("Amount After withdrawal is "+total);
+   	System.out.println("Amount After withdrawal is "+total); 
    	}
    	break;
+   	
    	case 3:
    	
    	
@@ -92,4 +94,3 @@ System.out.println("1.login\t\t2.Withdraw\n3.Balance\t4.Deposit\n5.Exit");
 }
 
 }
-
