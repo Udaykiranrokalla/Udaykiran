@@ -1,5 +1,3 @@
-
-
 import java.sql.*;
 import java.util.Scanner;
 
@@ -10,14 +8,12 @@ public class Select {
 	Connection con=DriverManager.getConnection("jdbc:db2://172.17.0.142:50001/itgdb","mssusr13","miracle13");
 	PreparedStatement ps=con.prepareStatement("select * from student2");
 
-	int i=ps.executeUpdate();
-	if(i>0) 
+	ResultSet i=ps.executeQuery();
+	while(i.next())
 	{
-	System.out.println("delete succesfully");
+		System.out.println(i.getInt(1)+" "+i.getString(2)+" "+i.getString(3));
+		
 	}
-	else 
-	{
-	System.out.println("not successfully");
-	}
+	
 	}
 }
