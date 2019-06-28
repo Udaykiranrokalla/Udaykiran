@@ -1,4 +1,4 @@
-package Constuctor;
+package src.Constuctor;
 
 public class Constructor {
 

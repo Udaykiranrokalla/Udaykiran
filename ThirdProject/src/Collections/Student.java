@@ -1,7 +1,7 @@
-package Collections;
+package src.Collections;
 import java.util.*;
 public class Student {
-	int no;
+	 int no;
     String Ename;
 Student(int id,String name) {
 	this.no=id;
@@ -13,6 +13,7 @@ Student s=new Student(1,"uday");
 Student s1=new Student(2,"kiran");
 a.add(s);
 a.add(s1);
-System.out.println(id " " +name);
+
+//System.out.println(" " + Ename + no);
 }
 }

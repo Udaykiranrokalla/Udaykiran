@@ -1,4 +1,4 @@
-package Collections;
+package src.Collections;
 
 import java.util.*;
 

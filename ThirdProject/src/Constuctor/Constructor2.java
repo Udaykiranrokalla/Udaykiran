@@ -1,4 +1,4 @@
-package Constuctor;
+package src.Constuctor;
 
 import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
 
