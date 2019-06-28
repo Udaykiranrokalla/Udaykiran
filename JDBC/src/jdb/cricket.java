@@ -1,24 +1,26 @@
 package jdb;
+
 import java.sql.*;
-public class Bankingjdinsert {
+public class cricket {
 	
-
-
 	public static void main(String[] args)throws ClassNotFoundException,SQLException {
 	// TODO Auto-generated method stub
 	Class.forName("com.ibm.db2.jcc.DB2Driver");
 	     Connection con=DriverManager.getConnection("jdbc:db2://172.17.0.142:50001/itgdb","mssusr6","miracle6");
 	     System.out.println("Connect successfully");
-	     PreparedStatement p=con.prepareStatement("insert into bankopt1 values(?,?,?)");
-	    p.setInt(1,112011);
-	    p.setString(2,"rock");
-	    p.setInt(3,66000);
-	    p.setInt(1,112013);
-	    p.setString(2,"manu");
-	    p.setInt(3,242000);
-	    p.setInt(1,112012);
-	    p.setString(2,"ijwos");
-	    p.setInt(3,76000);
+	     PreparedStatement p=con.prepareStatement("insert into  Cricketi values(?,?,?,?)");
+	    p.setInt(1,7);
+	    p.setString(2,"Dhoni");
+	    p.setString(3,"keeper");
+	    p.setString(4,"Chandigarh");
+	    p.setInt(1,18);
+	    p.setString(2,"Kohli");
+	    p.setString(3,"captain");
+	    p.setString(4,"Bangalore");
+	    p.setInt(1,12);
+	    p.setString(2,"Yuvi");
+	    p.setString(3,"allrounder");
+	    p.setString(4,"Punjab");
 	    
 	       int i=p.executeUpdate();
 	     if(i>0)
