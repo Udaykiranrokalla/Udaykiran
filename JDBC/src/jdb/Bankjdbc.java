@@ -9,9 +9,9 @@ super(s);
 }
 
 }
-class Isb extends Exception
+class Insuffb extends Exception
 {
-  Isb(String s1)
+	Insuffb(String s1)
   {
  super(s1);
   }
@@ -37,7 +37,7 @@ Exit(String s4)
 super(s4);
 }
 }
-public class Banking{
+public class Bankjdbc{
 public static void main(String[] args)throws Login,Isb,Deposit,Bal
 {
 // TODO Auto-generated method stub
@@ -131,6 +131,3 @@ System.out.println("Login successfull");
 
 
 }
-
-
-
