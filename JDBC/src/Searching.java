@@ -21,7 +21,14 @@ public class Searching {
 	Scanner sc4=new Scanner(System.in);
 	String e=sc4.next();
 	System.out.println("enter address");
-	ResultSet i=ps.executeQuery();
-	System.out.println("searching succesfully");
+	int i=ps.executeUpdate();
+	if(i>0) 
+	{
+	System.out.println("Searching successfully");
+	}
+	else 
+	{
+	System.out.println("Searching failed");
 	}
 	}
+}
