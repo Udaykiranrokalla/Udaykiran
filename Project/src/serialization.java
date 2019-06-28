@@ -12,7 +12,7 @@ class serialization  implements java.io.Serializable
   
 } 
 
-class Test 
+class Test
 { 
     public static void main(String[] args) 
     {    
