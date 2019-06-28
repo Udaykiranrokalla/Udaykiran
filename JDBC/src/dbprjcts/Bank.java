@@ -145,6 +145,7 @@ public class Bank {
 		   	case 4 :
 		   	{
     			System.out.println("Thank you");
+    			c.close();
     			
 
 		   	}break;

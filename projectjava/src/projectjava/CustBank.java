@@ -120,7 +120,7 @@ public class CustBank {
 		   	System.out.println("terminated");
 		   	break;
 		   	
-		        default :
+		    default :
 		   	System.out.println("Invalid option");
 		   	}
 		   	
