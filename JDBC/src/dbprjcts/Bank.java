@@ -57,8 +57,10 @@ public class Bank {
 		PreparedStatement ps=c.prepareStatement("select * from bank where password=?");
 		ps.setString(1, pwd);
 		ResultSet r=ps.executeQuery();
-		while(r.next())
-		{
+		if(r.next())
+		{  
+			while(true) {
+		
 		   System.out.println("Bank process");
 		   System.out.println("1.Withdraw\t2.Balance\n3.Deposit\t4.Exit");
 		   System.out.println("Enter choice :");
@@ -153,7 +155,7 @@ public class Bank {
 		   	
 		}
 
-
+			}
 		
 
 	}
