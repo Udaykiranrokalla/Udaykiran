@@ -16,6 +16,7 @@ public static void main(String args[]) throws ClassNotFoundException, SQLExcepti
 	String s=obj.next();
 	String s2=obj.next();
 	PreparedStatement pst = con.prepareStatement("delete from employess where emp_id=?");
+	//PreparedStatement pst = con.prepareStatement("delete from employess values('?''?''?')");
 	pst.setInt(1,id);
 	int a=pst.executeUpdate();
 	if(a>0)
