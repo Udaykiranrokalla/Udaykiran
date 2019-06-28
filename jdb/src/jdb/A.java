@@ -1,0 +1,28 @@
+package jdb;
+import java.sql.*;
+import java.util.*;
+public class A {
+
+public static void main(String[] args)throws ClassNotFoundException,SQLException {
+// TODO Auto-generated method stub
+Class.forName("com.ibm.db2.jcc.DB2Driver");
+Connection con=DriverManager.getConnection("jdbc:db2://172.17.0.142:50001/itgdb","mssusr6","miracle6");
+System.out.println("Connect successfully");
+System.out.println("Enter id,firstname and lastname:");
+Scanner sc=new Scanner(System.in);
+int id=sc.nextInt();
+String fname=sc.next();
+String lname=sc.next();
+PreparedStatement ps=con.prepareStatement("select * from employ where id=? or fname=? or lname=?");
+ps.setInt(1,id);
+ps.setString(2,fname);
+ps.setString(3,lname);
+ResultSet rs=ps.executeQuery();
+while(rs.next()){
+	System.out.print(rs.getInt(id)+" "+rs.getString("fname")+" "+rs.getString("lname")+" "+rs.getString("role")+" "+rs.getString("rating"));
+}
+
+con.close(); 
+}
+
+}
