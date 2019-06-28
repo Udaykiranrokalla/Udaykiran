@@ -1,4 +1,4 @@
-package jdb;
+package files;
 
 import java.util.Scanner;
 class Login extends Exception
