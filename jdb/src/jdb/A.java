@@ -19,7 +19,7 @@ ps.setString(2,fname);
 ps.setString(3,lname);
 ResultSet rs=ps.executeQuery();
 while(rs.next()){
-	System.out.print(rs.getInt(id)+" "+rs.getString("fname")+" "+rs.getString("lname")+" "+rs.getString("role")+" "+rs.getString("rating"));
+	System.out.print(rs.getInt(1)+" "+rs.getString(2)+" "+rs.getString(3)+" "+rs.getString(4)+" "+rs.getString(5));
 }
 
 con.close(); 
