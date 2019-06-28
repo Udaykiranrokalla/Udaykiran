@@ -11,7 +11,7 @@ public class SerializationDemo {
 	      e.number = 101;
 	      
 	      try {
-	         FileOutputStream fileOut =new FileOutputStream("E:\\koti1");
+	         FileOutputStream fileOut =new FileOutputStream("E\\:\\koti1");
 	         ObjectOutputStream out = new ObjectOutputStream(fileOut);
 	         out.writeObject(e);
 	         out.close();
