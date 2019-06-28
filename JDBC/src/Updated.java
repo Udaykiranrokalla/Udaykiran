@@ -1,7 +1,5 @@
-
-
+import java.util.*;
 import java.sql.*;
-import java.util.Scanner;
 
 public class Updated {
 
@@ -10,17 +8,21 @@ public class Updated {
 	System.out.println(" enter details");
 	Class.forName("com.ibm.db2.jcc.DB2Driver");
 	Connection con=DriverManager.getConnection("jdbc:db2://172.17.0.142:50001/itgdb","mssusr13","miracle13");
-	PreparedStatement ps=con.prepareStatement("delete from student2 where id=?");
+	PreparedStatement ps=con.prepareStatement("update student2 set name=?,branch=? where id=?");
 	int id=sc.nextInt();
-	ps.setInt(1,id);
+	String s=sc.next();
+	String b=sc.next();
+	ps.setString(1,s);
+	ps.setString(2,b);
+	ps.setInt(3,id);
 	int i=ps.executeUpdate();
 	if(i>0) 
 	{
-	System.out.println("delete succesfully");
+	System.out.println("Updated successfully");
 	}
 	else 
 	{
-	System.out.println("not successfully");
+	System.out.println("failed to Update");
 	}
 	}
 }
