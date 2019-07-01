@@ -18,13 +18,13 @@ public class Cricketjdb {
 		Scanner sc=new Scanner(System.in);
 		int jno=sc.nextInt();
 		String name=sc.next();
-		String surname=sc.next();
-		String location=sc.next();
-		PreparedStatement ps=c.prepareStatement("Select * from cricket where id=? and fname=? and lname=?");
+		String role=sc.next();
+		String State=sc.next();
+		PreparedStatement ps=c.prepareStatement("Select * from cricketi where id=? and name=? and role=?");
         ps.setInt(1, jno);
         ps.setString(2,name);
-     	ps.setString(3,surname);
-     	ps.setString(3,location);
+     	ps.setString(3,role);
+     	ps.setString(3,State);
 		ResultSet rs=ps.executeQuery();
 		while(rs.next()) {
             System.out.println(rs.getInt(1)+" "+rs.getString(2)+" "+rs.getString(3)+" "+rs.getString(4));
