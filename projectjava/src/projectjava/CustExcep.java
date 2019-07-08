@@ -23,7 +23,7 @@ public class CustExcep{
 		// TODO Auto-generated method stub
 		try
 		{
-			validate(19);
+			validate(12);
 		}
 		catch(Exception e)
 		{
