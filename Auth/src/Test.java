@@ -39,15 +39,36 @@ public class Test extends HttpServlet {
 	         		    if(email.equals(s1) && pass.equals(s2))
 	         	        {
 	         	        	
-	         	        	flag=1;		
-	         	        			    	        			
+	         	        	flag=1;	
+                            	         	        			    	        			
 	         	        }
 	               }
 	         		    if(flag==1)
 	         		    {
 	         		    	out.println("Logged Sucessfully");
-	         	        	RequestDispatcher req=request.getRequestDispatcher("Home.html");
+	    	                PreparedStatement p=c.prepareStatement("select * from auth where uname=? and pwd=?");
+	    	                p.setString(1, email);
+	    	                p.setString(2, pass);
+	    	        		ResultSet rs=p.executeQuery();
+	    	        		String s3="";
+	    	        		while(rs.next())
+	    	        		{
+	    	                 	s3=rs.getString(3);
+	    	                 	if(s3.equals("trainer"))
+	    	                 	{
+	    	         	        	RequestDispatcher req=request.getRequestDispatcher("Home.html");
 	         	        			req.include(request, response);
+
+	    	                 	}
+	    	                 	else
+		    	        		{
+	    	         	        	RequestDispatcher req=request.getRequestDispatcher("Register.html");
+	         	        			req.include(request, response);
+
+		    	        		}
+
+	    	        		}
+	    	        		
 	         		    }
 	         	   	    else
 	         	        {
