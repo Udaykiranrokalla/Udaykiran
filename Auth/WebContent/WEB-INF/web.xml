@@ -10,6 +10,14 @@
     <url-pattern>/Auth</url-pattern>
   </servlet-mapping>
   <servlet>
+    <servlet-name>Trainee</servlet-name>
+    <servlet-class>Trainee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Trainee</servlet-name>
+    <url-pattern>/Trainee</url-pattern>
+  </servlet-mapping>
+  <servlet>
     <servlet-name>Trainer</servlet-name>
     <servlet-class>hari.Trainer</servlet-class>
   </servlet>

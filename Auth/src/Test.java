@@ -62,7 +62,7 @@ public class Test extends HttpServlet {
 	    	                 	}
 	    	                 	else
 		    	        		{
-	    	         	        	RequestDispatcher req=request.getRequestDispatcher("Register.html");
+	    	         	        	RequestDispatcher req=request.getRequestDispatcher("Trainee.html");
 	         	        			req.include(request, response);
 
 		    	        		}
