@@ -11,7 +11,7 @@ package jdbc;
 	Class.forName("com.ibm.db2.jcc.DB2Driver");
 	Connection con=DriverManager.getConnection("jdbc:db2://172.17.0.142:50001/itgdb","mssusr4", "miracle4");
 	System.out.println("Connection succesfully");
-	System.out.println("enter Student details");
+	System.out.println("enter Student details"); 
 	//System.out.println("enter id too delete details");
 	PreparedStatement ps=con.prepareStatement("Insert into student55 values(?,?,?,?)");
 	//PreparedStatement ps=con.prepareStatement("delete from student55 where id=?");

@@ -8,6 +8,7 @@ int[] arr= {1,2,3,4,56,7,8,9};
 Arrays.sort(arr);
 System.out.println(Arrays.toString(arr));
 
+	//System.exit(8);
 	
 }
 

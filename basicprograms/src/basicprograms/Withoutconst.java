@@ -2,7 +2,7 @@ package basicprograms;
 
 class A{
 	int a, b;
-	final A(int a, int b) {
+	A(int a, int b) {
 		int b1=10;
 		System.out.println(a+b);
 		

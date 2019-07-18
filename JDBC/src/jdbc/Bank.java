@@ -41,7 +41,7 @@ super(s4);
 public class Bank{
 public static void main(String[] args)throws Login,Isb,Deposit,Bal
 {
-// TODO Auto-generated method stub
+ 
 int acc=132442,a=0,b,amount=6000,w,total=0,d;
 String pwd="hello";
 Scanner c=new Scanner(System.in);
