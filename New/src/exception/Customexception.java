@@ -54,31 +54,31 @@ public class Customexception
          String pwd1=sc.nextLine();
          if(b!=acc && pwd1.equals(pwd)==false)
          {
-           throw new Login("Invalid account number and password");
+           throw new Login("Wrong account number and password");
          }
          else if(b==acc && pwd1.equals(pwd)==false)
          {
-             throw new Login("Invalid password");
+             throw new Login("Invalid");
          }
          else if(b!=acc && pwd1.equals(pwd)==true)
          {
-             throw new Login("Invalid account name");
+             throw new Login("Invalid");
          }
          else
          {
-             System.out.println("Login successfull");
+             System.out.println("success...");
          }
        while(true)
       {
-   	      System.out.println("Bank process");
+   	      System.out.println("Process");
           System.out.println("1.Withdraw\n 2.Balance\n 3.Deposit\n 4.Exit");
-          System.out.println("Enter choice :");
+          System.out.println("Enter your choice :");
           a=c.nextInt();
    	     switch(a)
    	     {
    	
    	       case 1:
-            	System.out.println("Enter amount");
+            	System.out.println("Enter how amount to withdraw");
              	w=c.nextInt();
    	            if(amount<w)
    	            {

@@ -8,10 +8,9 @@ public class SettoList
 	{
 		HashSet<String> hs=new HashSet<String>();
 		hs.add("harry");
-		hs.add("nikki");
+		hs.add("niha");
 		hs.add("kusu");
 		hs.add("harry");
-		System.out.println("set elements are :"+hs);
 		ArrayList<String> al=new ArrayList<String>(hs);
 		System.out.println("list elements are :");
 		for(String s:al)
