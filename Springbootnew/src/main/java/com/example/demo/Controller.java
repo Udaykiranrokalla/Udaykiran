@@ -50,8 +50,4 @@ public String delete(@PathVariable int id) {
 public List<Pojo>getiteams(){
 	return s.getdetails();
 }
-
 }
-
-
-
