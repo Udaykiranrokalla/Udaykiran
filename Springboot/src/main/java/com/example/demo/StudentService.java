@@ -68,7 +68,7 @@ public class StudentService {
 	public List<Student> getItems() {
 		List<Student> student = jd.query("select * from mav", (result, rowNum) -> new Student(result.getInt("id"),
 				result.getString("name"), result.getString("place")));
-		return student;
+		return student;                                                      
 
 	}
 
